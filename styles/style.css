@@ -10,6 +10,10 @@
   letter-spacing: normal;
 }
 
+.mt-100 {
+  margin-top: 100px;
+}
+
 .overlay {
   position: absolute;
   inset: 0 0;
@@ -232,10 +236,6 @@
   justify-items: center;
   column-gap: 24px;
   padding: 33px 24px 180px 24px;
-}
-
-.about-column--right {
-  margin-top: 100px;
 }
 
 .about__logo {
