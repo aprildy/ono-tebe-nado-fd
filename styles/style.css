@@ -168,11 +168,11 @@
 
 .lots__card-list {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 25px;
 }
 
 .lots__card-list-item {
-  position: relative;
   width: 334px;
   min-height: 597px;
 }
@@ -182,6 +182,7 @@
 }
 
 .card {
+  position: relative;
   display: flex;
   flex-direction: column;
   padding: 48px 40px;
