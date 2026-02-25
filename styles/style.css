@@ -176,6 +176,7 @@
 
 .card-link {
   height: 100%;
+  text-decoration: none;
 }
 
 .card {
@@ -261,6 +262,7 @@
   flex-direction: column;
   max-width: 690px;
   row-gap: 24px;
+  line-height: 1.2;
 }
 
 /*Footer*/
